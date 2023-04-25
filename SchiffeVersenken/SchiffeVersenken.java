@@ -3,20 +3,19 @@ import java.util.Scanner;
 public class SchiffeVersenken {
     
     private char[][] spielfeld;
-    private int groesse;
-    private int anzahlSchiffe;
-    private int schiffeVersenkt;
+    private int groesse = 12;
+    private boolean ended = false;
     
     public SchiffeVersenken() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Willkommen zu Schiffe Versenken!");
-        System.out.print("Geben Sie die Größe des Spielfelds ein: ");
-        int groesse = scanner.nextInt();
+        System.out.println("Willkommen zu Schiffe Versenken von Lars und Tilo!");
+        System.out.print("Verbindung wird aufgebaut...");
+        
         System.out.print("Geben Sie die Anzahl der Schiffe ein: ");
         int anzahlSchiffe = scanner.nextInt();
         SchiffeVersenken spiel = new SchiffeVersenken(groesse, anzahlSchiffe);
         spiel.zeigeSpielfeld();
-        while (spiel.schiffeVersenkt < anzahlSchiffe) {
+        while (!ended) {
             System.out.print("Geben Sie die x-Koordinate des Schusses ein: ");
             int x = scanner.nextInt();
             System.out.print("Geben Sie die y-Koordinate des Schusses ein: ");
@@ -27,11 +26,9 @@ public class SchiffeVersenken {
         scanner.close();
     }
     
-    public SchiffeVersenken(int groesse, int anzahlSchiffe) {
+    private SchiffeVersenken(int groesse, int anzahlSchiffe) {
         this.groesse = groesse;
-        this.anzahlSchiffe = anzahlSchiffe;
         this.spielfeld = new char[groesse][groesse];
-        this.schiffeVersenkt = 0;
         for (int i = 0; i < this.groesse; i++) {
             for (int j = 0; j < this.groesse; j++) {
                 this.spielfeld[i][j] = '.';
