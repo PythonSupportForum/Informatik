@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SchiffeVersenken
+comment1.params=
+comment1.target=SchiffeVersenken()
+comment2.params=groesse\ anzahlSchiffe
+comment2.target=SchiffeVersenken(int,\ int)
+comment3.params=
+comment3.target=void\ platziereSchiffeZufaellig()
+comment4.params=
+comment4.target=void\ zeigeSpielfeld()
+comment5.params=x\ y
+comment5.target=boolean\ schuss(int,\ int)
+numComments=6
