@@ -1,0 +1,43 @@
+Eva Aufgaben 25.10.2022
+
+public void s65Nr1_a(){
+	//Er sammelt alle Gesteine bis zum Hügel ein, außer das Gestein, das sich direkt vor dem Hügel befindet
+}
+
+public void s65Nr1_b(){
+	//Man braucht eine Schleife, die solange Gesteine aufsammelt, bis auf dem aktuellen Feld keine mehr sind.
+
+	while(this.gesteinVorhanden() == true){
+		this.analysiereGestein();
+	}
+	if(!this.huegelVorhanden("vorne")){
+		this.fahre();
+		this.s65Nr1_b();
+	}
+}
+
+public void s65Nr1_c(){
+	//Das gestein auf dem Ausgangsfeld würde nicht eingesammelt werden, da er erst fährt, bevor er prüft, ob ein Gestein Vorhanden ist. Man müsste also Planen, dass er immer erst auf Gesteine prüft und ann eventuell zum nächsten Feld fährt.
+}
+
+private void n_mal_nach_x_drehen_und_y_mal_fahren(int n, String x, int y){
+	for(int i = 0; i < n; i++){
+		this.drehe(x);
+		for(int ii = 0; ii < y; ii++) this.fahre();
+	}
+}
+
+public void s65Nr2(){
+	//Erfassung: Er muss über vorgegebene Felder fahren, und das Programm sollte möglichst kurz sein
+	//Teilprobleme: keine
+	//Man braucht mehrere Schleifen, um den Code kurz zu halten
+	//Erste links drehen, dann fahren, dann rechts drehen, dann 2 mal fahren, dann rechts drehen, dann 2 mal fahren, dann links drehen, dann 2 mal fahren, dann links drehen, dann 2 mal fahren, dann links drehen, dann 2 mal fahren, dann links drehen, dann 2 mal fahren, dann rechts drehen und 2 mal fahren, dann rchts drehen und 1 mal fahren
+
+	this.n_mal_nach_x_drehen_und_y_mal_fahren(1, "links", 1);
+	this.n_mal_nach_x_drehen_und_y_mal_fahren(2, "rechts", 2);
+	this.n_mal_nach_x_drehen_und_y_mal_fahren(4, "links", 2);
+	this.n_mal_nach_x_drehen_und_y_mal_fahren(1, "rechts", 2);
+	this.n_mal_nach_x_drehen_und_y_mal_fahren(1, "rechts", 1);
+
+	//Test: funktioniert	
+}

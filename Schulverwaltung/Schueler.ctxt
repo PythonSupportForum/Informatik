@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Schueler
+comment1.params=pVorname\ pNachname\ pGeburtstag\ pGeschlecht\ pJgst\ pErziehung1
+comment1.target=Schueler(java.lang.String,\ java.lang.String,\ java.lang.String,\ char,\ int,\ Person)
+comment2.params=pJgst
+comment2.target=void\ setJgst(int)
+comment3.params=
+comment3.target=int\ getJgst()
+comment4.params=pErziehung1
+comment4.target=void\ setErziehung1(Person)
+comment5.params=
+comment5.target=Person\ getErziehung1()
+numComments=6

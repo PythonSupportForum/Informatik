@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=encryptedAsymtric
+comment1.params=
+comment1.target=encryptedAsymtric()
+comment2.params=zahl1\ zahl2
+comment2.target=int\ ggt(int,\ int)
+comment3.params=
+comment3.target=long\ search_for_very_big_prim_number()
+comment4.params=
+comment4.target=void\ GenerateSchluesselForRSAAlgorym()
+comment5.params=msg
+comment5.target=double\ encrypt(int)
+comment6.params=data
+comment6.target=java.math.BigInteger\ decrypt(double)
+numComments=7

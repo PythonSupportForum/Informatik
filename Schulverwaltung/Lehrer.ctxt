@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Lehrer
+comment1.params=pVorname\ pNachname\ pGeburtstag\ pGeschlecht\ pFach1\ pFach2
+comment1.target=Lehrer(java.lang.String,\ java.lang.String,\ java.lang.String,\ char,\ java.lang.String,\ java.lang.String)
+comment2.params=pFach1
+comment2.target=void\ setFach1(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getFach1()
+comment4.params=pFach2
+comment4.target=void\ setFach2(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getFach2()
+numComments=6

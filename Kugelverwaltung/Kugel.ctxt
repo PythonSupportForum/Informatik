@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Kugel
+comment1.params=pRadius\ pFarbe
+comment1.target=Kugel(double,\ java.lang.String)
+comment2.params=pRadius
+comment2.target=void\ setRadius(double)
+comment3.params=pFarbe
+comment3.target=void\ setFarbe(java.lang.String)
+comment4.params=
+comment4.target=double\ getRadius()
+comment5.params=
+comment5.target=java.lang.String\ getFarbe()
+numComments=6

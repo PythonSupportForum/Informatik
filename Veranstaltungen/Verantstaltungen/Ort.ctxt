@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Ort
+comment1.params=pNordlicheBreite\ pWestlicheLaenge
+comment1.target=Ort(int,\ int)
+comment2.params=pNordlicheBreite
+comment2.target=void\ setNordlicheBreite(int)
+comment3.params=
+comment3.target=int\ getNordlicheBreite()
+comment4.params=pWestlicheLaenge
+comment4.target=void\ setWestlicheLaenge(int)
+comment5.params=
+comment5.target=int\ getWestlicheLaenge()
+numComments=6

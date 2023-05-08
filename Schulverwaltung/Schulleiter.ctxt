@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Schulleiter
+comment1.params=pVorname\ pNachname\ pGeburtstag\ pGeschlecht\ pFach1\ pFach2\ pSchule
+comment1.target=Schulleiter(java.lang.String,\ java.lang.String,\ java.lang.String,\ char,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=pSchule
+comment2.target=void\ setSchule(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getSchule()
+numComments=4

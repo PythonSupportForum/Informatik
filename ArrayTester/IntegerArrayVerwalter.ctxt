@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=IntegerArrayVerwalter
+comment1.params=
+comment1.target=IntegerArrayVerwalter()
+comment2.params=pGroesse
+comment2.target=IntegerArrayVerwalter(int)
+comment3.params=
+comment3.target=int[]\ getWerte()
+comment4.params=pWerte
+comment4.target=void\ setWerte(int[])
+comment5.params=pPosition
+comment5.target=int\ get(int)
+comment6.params=pPosition\ pWert
+comment6.target=void\ set(int,\ int)
+numComments=7

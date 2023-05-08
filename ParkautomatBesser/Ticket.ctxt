@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Ticket
+comment0.text=\r\n\ Eine\ Klasse\ zur\ Erzeugung\ eines\ Ticket\ Objecktes,\ dass\ die\ Tickets\ eines\ Parkhauses\ beschreiben\ soll.\r\n\ Jedes\ Ticket\ Objeckt\ zeichnet\ sich\ durch\ zwei\ Attribute\ aus,\ die\ einmal\ die\ Ankunfszeit,\ bei\ der\ das\ Parkaus\ betreten\ wurde\ und\ einen\ Wahrheitswert,\ ob\ das\ Ticket\ bezahlt\ wurde\ speichert.\r\n
+comment1.params=pAnkunftszeit
+comment1.target=Ticket(Uhrzeit)
+comment1.text=\r\n\ Erzeugt\ ein\ neues\ Objelt\ vom\ Typ\ der\ Klasse\ Ticket,\ indem\ der\ \u00FCbergebene\ Paramerter\ als\ Ankunktszeit\ gespeichert\ wird.\ Der\ Bezahlstatus\ wird\ automatisch\ auf\ unwahr\ gesetzt.\ \r\n
+comment2.params=pAnkunftszeit\ pBezahlt
+comment2.target=Ticket(Uhrzeit,\ boolean)
+comment2.text=\r\n\ Erzeugt\ ein\ neues\ Objelt\ vom\ Typ\ der\ Klasse\ Ticket,\ indem\ der\ \u00FCbergebene\ Paramerter\ als\ Ankunktszeit\ gespeichert\ wird.\ Ein\ zweiter\ Parameter\ legt\ fest,\ ob\ das\ Ticket\ bereits\ bezahlt\ wurde.\r\n
+comment3.params=pAnkunftszeit
+comment3.target=void\ setAnkunftszeit(Uhrzeit)
+comment3.text=\r\n\ Setzt\ das\ Attribut\ f\u00FCr\ die\ Ankunftszeit\ auf\ den\ \u00DCbergebenen\ Parameter\r\n
+comment4.params=
+comment4.target=Uhrzeit\ getAnkunftszeit()
+comment5.params=pBezahlt
+comment5.target=void\ setBezahlt(boolean)
+comment5.text=\r\n\ Setzt\ das\ Attribut\ f\u00FCr\ den\ Bezahlstatus\ auf\ den\ \u00DCbergebenen\ Parameter\r\n
+comment6.params=
+comment6.target=boolean\ getBezahlt()
+comment6.text=\r\n\ Gibt\ einen\ Wahrheitswert\ zur\u00FCck,\ ob\ das\ Ticket\ berets\ bezahlt\ wurde.\r\n
+comment7.params=
+comment7.target=void\ alsBezahltMakieren()
+comment7.text=\r\n\ Setzt\ das\ Attribut\ Bezahlt\ auf\ Wahr.\r\n
+numComments=8

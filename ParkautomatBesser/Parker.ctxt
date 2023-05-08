@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Parker
+comment0.text=\r\n\ Eine\ Klasse\ die\ eine\ Person\ in\ einem\ Parkhaus\ darstellt\ und\ deren\ Guthaben\ verwaltet.\ \r\n
+comment1.params=pGeld\ pAutomat
+comment1.target=Parker(double,\ Automat)
+comment1.text=\r\n\ Erzeugt\ ein\ Neues\ Objekt\ vom\ Typ\ der\ Klasse\ Parker,\ mit\ einem\ Parameter,\ der\ Angibt\ wie\ viel\ Geld\ die\ Person\ zur\ Verf\u00FCgung\ hat.\ Dieser\ Wert\ wird\ in\ dem\ Attribut\ f\u00FCr\ das\ Geld\ gespeichert.\ Zus\u00E4tzlich\ wird\ von\ einem\ \u00FCbergebenen\ Automaten\ ein\ neues\ Ticket\ gezogen\ ung\ gespeichert.\r\n
+comment2.params=pGeld
+comment2.target=void\ setGeld(double)
+comment2.text=\r\n\ Setzt\ den\ Wert\ des\ Attributes\ Geld\ auf\ den\ \u00FCbergebenen\ Parameter.\r\n
+comment3.params=
+comment3.target=double\ getGeld()
+comment3.text=\r\n\ Gibt\ den\ Wert\ des\ Attributes\ Geld\ aus.\r\n
+comment4.params=pTicket
+comment4.target=void\ setTicket(Ticket)
+comment4.text=\r\n\ Setzt\ den\ Wert\ des\ Attributes\ Ticket\ auf\ den\ \u00FCbergebenen\ Parameter.\r\n
+comment5.params=
+comment5.target=Ticket\ getTicket()
+comment5.text=\r\n\ Gibt\ den\ Wert\ des\ Attributes\ Ticket\ aus.\r\n
+comment6.params=pAutomat
+comment6.target=void\ ticketEinschieben(Automat)
+comment7.params=pAutomat
+comment7.target=Ticket\ ticketNehmen(Automat)
+comment8.params=pAutomat
+comment8.target=void\ gebuehrBezahlen(Automat)
+comment8.text=\r\n\ Subtrahiert\ von\ dem\ Attribut\ Geld\ die\ vom\ \u00FCbergebenen\ Automaten\ ermittelten\ Parkgeb\u00FCren.\ \u00DCbergeben\ wird\ ein\ Ticket\ und\ ein\ Automat\ als\ Parameter.\ \r\n
+numComments=9

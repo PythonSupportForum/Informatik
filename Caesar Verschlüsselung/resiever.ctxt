@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=resiever
+comment1.params=password
+comment1.target=resiever(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getPassword()
+comment3.params=pPassword
+comment3.target=void\ setPassword(java.lang.String)
+comment4.params=
+comment4.target=boolean\ listen()
+comment5.params=data
+comment5.target=java.lang.String\ get_data_from_lars_server(java.lang.String)
+numComments=6

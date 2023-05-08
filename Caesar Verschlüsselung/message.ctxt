@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=message
+comment1.params=text\ password\ author
+comment1.target=message(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getText()
+comment3.params=pText
+comment3.target=void\ setText(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getPassword()
+comment5.params=pPassword
+comment5.target=void\ setPassword(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getAuthor()
+comment7.params=pAuthor
+comment7.target=void\ setAuthor(java.lang.String)
+comment8.params=
+comment8.target=boolean\ send()
+comment9.params=data
+comment9.target=java.lang.String\ get_data_from_lars_server(java.lang.String)
+numComments=10

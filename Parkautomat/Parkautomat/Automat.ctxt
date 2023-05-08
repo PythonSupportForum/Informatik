@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Automat
+comment1.params=pDisplay\ pAktuelleUhrzeit\ pStundenpreis
+comment1.target=Automat(int,\ int,\ int)
+comment10.params=pTicket
+comment10.target=void\ ticketEinziehen(Ticket)
+comment11.params=
+comment11.target=Ticket\ ticketAusgeben()
+comment12.params=pTicket
+comment12.target=void\ ticketMarkieren(Ticket)
+comment2.params=pDisplay
+comment2.target=void\ setDisplay(int)
+comment3.params=
+comment3.target=int\ getDisplay()
+comment4.params=pAktuelleUhrzeit
+comment4.target=void\ setAktuelleUhrzeit(int)
+comment5.params=
+comment5.target=int\ getAktuelleUhrzeit()
+comment6.params=pStundenpreis
+comment6.target=void\ setStundenpreis(int)
+comment7.params=
+comment7.target=int\ getStundenpreis()
+comment8.params=pTicket
+comment8.target=int\ gebuerBerechnen(Ticket)
+comment9.params=pTicket
+comment9.target=void\ gebuerAnzeigen(Ticket)
+numComments=13

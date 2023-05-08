@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Kreis
+comment0.text=\r\n\ Die\ Klasse\ Kreis\ soll\ bei\ diesem\ Projekt\ zur\ Generierung\ neuer\ Objekte\ des\ Kreis-Typs\ verwendet\ werden\ k\u00F6nnen.\ Die\ Klasse\ besitzt\ verschiedene\ Attribute,\ die\ die\ einzelnen\ Objekte\ dieser\ Klasse\ characteriesieren.\ Im\ Kontekt\ des\ Projektes\ \:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\ soll\ die\ Klasse\ zur\ Erzeugung\ einzelner\ \:\:\:\:\:\:\:\ dienen.\ Diese\ Generierten\ Objekte\ k\u00F6nnen\ dann\ \:\:\:\:\:\:\:\:\:.\ Das\ Repr\u00E4sentiert\ im\ Kontekt\ des\ Projektes\ \:\:\:\:\:\:\:.\ Ein\ Objekt\ dieser\ Klasse\ kann\ \u00FCber\ den\ einen\ Konstruktor\ generiert\ werden.\ \u00DCbergeben\ werden\ m\u00FCssen\ die\ Parameter\ int\ pRadius,\ die\ f\u00FCr\ die\ Gleichnamigen\ Attribute\ stehen.\ Die\ Werte\ der\ Attribute\ werden\ bei\ Erzeugung\ eines\ Objektes\ automatisch\ auf\ die\ der\ \u00FCbergebenen\ Parameter\ gesetzt.\ \r\n
+comment1.params=pRadius
+comment1.target=Kreis(double)
+comment1.text=\r\n\ Erzeugt\ ein\ neues\ Objekt\ vom\ Typ\ der\ Klasse\ Kreis\ und\ gibt\ dieses\ zur\u00FCck.\ Als\ Parameter\ muss\ int\ pRadius\ \u00FCbergeben\ werden.\ Die\ \u00DCbergebenen\ Parameter\ werden\ automatisch\ in\ dem\ entsprechenden\ Attribut\ des\ neuen\ Objektes\ gespeichert.\r\n
+comment2.params=pRadius
+comment2.target=void\ setRadius(double)
+comment2.text=\r\n\ Setzt\ das\ Attribut\ Radius\ eines\ Objektes\ der\ Klasse\ Kreis\ auf\ den\ mit\ dem\ Parameter\ pRadius\ \u00FCbergebenen\ Wert.\r\n
+comment3.params=
+comment3.target=double\ getRadius()
+comment3.text=\r\n\ Gibt\ den\ Wert\ des\ Attributes\ Radius\ eines\ Objektes\ der\ Klasse\ Kreis\ zur\u00FCck.\r\n
+comment4.params=
+comment4.target=double\ Flaecheninhalt()
+comment5.params=
+comment5.target=double\ Umfang()
+numComments=6

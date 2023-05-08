@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=encryptedAdvanced
+comment1.params=pText\ pPasswort
+comment1.target=encryptedAdvanced(java.lang.String,\ java.lang.String)
+comment2.params=pPasswort
+comment2.target=encryptedAdvanced(java.lang.String)
+comment3.params=p
+comment3.target=void\ setText(java.lang.String)
+comment4.params=p
+comment4.target=void\ setPasswort(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getText()
+comment6.params=
+comment6.target=java.lang.String\ getPasswort()
+comment7.params=
+comment7.target=java.lang.String\ encrypted_Text()
+comment8.params=
+comment8.target=java.lang.String\ decrypted_Text()
+comment9.params=eMessage
+comment9.target=java.lang.String\ decrypted_Text(java.lang.String)
+numComments=10

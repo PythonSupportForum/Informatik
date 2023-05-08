@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Rechteck
+comment0.text=\r\n\ Die\ Klasse\ Rechteck\ soll\ bei\ diesem\ Projekt\ zur\ Generierung\ neuer\ Objekte\ des\ Rechteck-Typs\ verwendet\ werden\ k\u00F6nnen.\ Die\ Klasse\ besitzt\ verschiedene\ Attribute,\ die\ die\ einzelnen\ Objekte\ dieser\ Klasse\ characteriesieren.\ Im\ Kontekt\ des\ Projektes\ \:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\ soll\ die\ Klasse\ zur\ Erzeugung\ einzelner\ \:\:\:\:\:\:\:\ dienen.\ Diese\ Generierten\ Objekte\ k\u00F6nnen\ dann\ \:\:\:\:\:\:\:\:\:.\ Das\ Repr\u00E4sentiert\ im\ Kontekt\ des\ Projektes\ \:\:\:\:\:\:\:.\ Ein\ Objekt\ dieser\ Klasse\ kann\ \u00FCber\ den\ einen\ Konstruktor\ generiert\ werden.\ \u00DCbergeben\ werden\ m\u00FCssen\ die\ Parameter\ double\ pBreite,\ double\ pTiefe,\ die\ f\u00FCr\ die\ Gleichnamigen\ Attribute\ stehen.\ Die\ Werte\ der\ Attribute\ werden\ bei\ Erzeugung\ eines\ Objektes\ automatisch\ auf\ die\ der\ \u00FCbergebenen\ Parameter\ gesetzt.\ \r\n
+comment1.params=pBreite\ pTiefe
+comment1.target=Rechteck(double,\ double)
+comment1.text=\r\n\ Erzeugt\ ein\ neues\ Objekt\ vom\ Typ\ der\ Klasse\ Rechteck\ und\ gibt\ dieses\ zur\u00FCck.\ Als\ Parameter\ muss\ double\ pBreite,\ double\ pTiefe\ \u00FCbergeben\ werden.\ Die\ \u00DCbergebenen\ Parameter\ werden\ automatisch\ in\ dem\ entsprechenden\ Attribut\ des\ neuen\ Objektes\ gespeichert.\r\n
+comment2.params=pBreite
+comment2.target=void\ setBreite(double)
+comment2.text=\r\n\ Setzt\ das\ Attribut\ Breite\ eines\ Objektes\ der\ Klasse\ Rechteck\ auf\ den\ mit\ dem\ Parameter\ pBreite\ \u00FCbergebenen\ Wert.\r\n
+comment3.params=
+comment3.target=double\ getBreite()
+comment3.text=\r\n\ Ist\ die\ Getter\ Methode\ f\u00FCr\ das\ Attribute\ Breite.\ So\ kann\ der\ Wert\ von\ dem\ Attribut\ Breite\ der\ Klasse\ Rechteck\ ausgelesen\ und\ woanders\ verwendet\ werden.\ \r\n
+comment4.params=pTiefe
+comment4.target=void\ setTiefe(double)
+comment4.text=\r\n\ Setzt\ das\ Attribut\ Tiefe\ eines\ Objektes\ der\ Klasse\ Rechteck\ auf\ den\ mit\ dem\ Parameter\ pTiefe\ \u00FCbergebenen\ Wert.\r\n
+comment5.params=
+comment5.target=double\ getTiefe()
+comment5.text=\r\n\ Ist\ die\ Getter\ Methode\ f\u00FCr\ das\ Attribute\ Tiefe.\ So\ kann\ der\ Wert\ von\ dem\ Attribut\ Tiefe\ der\ Klasse\ Rechteck\ ausgelesen\ und\ woanders\ verwendet\ werden.\ \r\n
+comment6.params=
+comment6.target=double\ Flaecheninhalt()
+comment6.text=\r\n\ Die\ Methode\ Flaecheninhalt\ der\ Klasse\ Rechteck\ gibt\ einen\ Wert\ vom\ Typ\ double\ zur\u00FCck.\ \r\n
+comment7.params=
+comment7.target=double\ Umfang()
+comment7.text=\r\n\ Die\ Methode\ Umfang\ der\ Klasse\ Rechteck\ gibt\ einen\ Wert\ vom\ Typ\ double\ zur\u00FCck.\ \r\n
+comment8.params=
+comment8.target=double\ Diagonale()
+numComments=9

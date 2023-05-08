@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Essen
+comment1.params=pBezeichnung\ pMenge\ pLeckerSkalaInProzent
+comment1.target=Essen(java.lang.String,\ int,\ int)
+comment2.params=pBezeichnung
+comment2.target=void\ setBezeichnung(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getBezeichnung()
+comment4.params=pMenge
+comment4.target=void\ setMenge(int)
+comment5.params=
+comment5.target=int\ getMenge()
+comment6.params=pLeckerSkalaInProzent
+comment6.target=void\ setLeckerSkalaInProzent(int)
+comment7.params=
+comment7.target=int\ getLeckerSkalaInProzent()
+numComments=8

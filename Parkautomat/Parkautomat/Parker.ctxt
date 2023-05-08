@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Parker
+comment1.params=pGeld
+comment1.target=Parker(int)
+comment2.params=pGeld
+comment2.target=void\ setGeld(int)
+comment3.params=
+comment3.target=int\ getGeld()
+comment4.params=pTicket\ pAutomat
+comment4.target=void\ ticketEinschieben(Ticket,\ Automat)
+comment5.params=pAutomat
+comment5.target=Ticket\ ticketNechmen(Automat)
+comment6.params=pAutomat\ pTicket
+comment6.target=void\ gebuerBezahlen(Automat,\ Ticket)
+numComments=7

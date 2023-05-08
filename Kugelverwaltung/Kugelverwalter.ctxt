@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Kugelverwalter
+comment1.params=pGroe\u00DFe
+comment1.target=Kugelverwalter(int)
+comment2.params=pKugeln
+comment2.target=Kugelverwalter(Kugel[])
+comment3.params=
+comment3.target=Kugel[]\ getKugeln()
+comment4.params=pKugeln
+comment4.target=void\ setKugeln(Kugel[])
+comment5.params=pPosition
+comment5.target=Kugel\ getKugel(int)
+comment6.params=pPosition\ pKugel
+comment6.target=void\ setKugel(int,\ Kugel)
+comment7.params=
+comment7.target=void\ kugelUebersicht()
+comment8.params=pKugel
+comment8.target=boolean\ existiert(Kugel)
+comment9.params=pKugel
+comment9.target=int\ finde(Kugel)
+numComments=10

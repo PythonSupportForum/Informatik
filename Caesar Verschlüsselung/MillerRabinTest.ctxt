@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MillerRabinTest
+comment1.params=n\ iteration
+comment1.target=boolean\ isPrime(long,\ int)
+comment2.params=a\ b\ c
+comment2.target=long\ modPow(long,\ long,\ long)
+comment3.params=a\ b\ mod
+comment3.target=long\ mulMod(long,\ long,\ long)
+comment4.params=
+comment4.target=MillerRabinTest()
+comment5.params=n\ Interations
+comment5.target=MillerRabinTest(long,\ int)
+numComments=6
