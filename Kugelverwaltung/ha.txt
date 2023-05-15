@@ -1,0 +1,22 @@
+EVA - 15.05.2023
+
+a) Der Selection Sort Algorytmus sortiert ein Array nach der Größe der gespeicherten Daten oder nach der Größe eines Attributes von gespeicherten Objekten. Dazu sucht er immer das kleiste noch im Such-bereich vorhandene Element. Das geschiet indem er alle Elemente durchläuft und immer schaut ob das aktuelle kleiner als das bisher kleinste ist. Hat er das kleinte Gefunden speichert er es ganz zu Beginn des Suchbereiches und verkürzt den Suchbereich auf die noch verbleibenden Elemente. Ist der ALgorytmus ganz durchgelaufen befinden Sich alle Elemente in der gewünschten Reihenfolge. 
+
+b) Der Kartoffel Algorytmus wird von Selection Sort Algorytmus genutzt um von den im Suchbereich verbeliebenden Elemente das noch kleinste herauszufinden. Dazu werden alle Elemente durchgegangen und das kleinste bisher gefundene element in einer variable gespeichert. ist das aktuelle element kleiner als das in der variable wird das in der variable gespeicherte element ersetzt.
+
+S. 156 Nr. 1) 
+
+[8, 15, 3, 12, 9, 7]
+[3, 15, 8, 12, 9, 7]
+[3, 7, 8, 12, 9, 15]
+[3, 7, 8, 12, 9, 15]
+[3, 7, 8, 9, 12, 15]
+[3, 7, 8, 9, 12, 15]
+[3, 7, 8, 9, 12, 15]
+
+Die Methode sortiere Sortiert ein Integer Array der Größe nach. Sie nimmt ein Integer Array an und gibt dieses überarbeitet wieder zurück. Es wird durch alle Stellen des Arrays gelaufen. Für jede Stelle wird von dem Element nach der Stelle bis zum Letzten Element das kleinste Rausgesucht und an den Beginn dieses Abschnittes gesetzt. Das kleinste Element wird gefunden, indem in einer Variable das bisher kleinste gefundene Element gespeichert wird und für jedes element geprüft wird, ob es noch kleiner ist. Um Leistung zu sparen, wird die Variable minpos auf den index der Stelle gesetzt, mit dem der Abschnitt beginnt. Dadurch geht man davon aus, das das Array keine Element kleiner als 0 und jedes Zahl nur einmal besizt. Ist dies nämlich der Fall, wird es zwingend keine Zahl kleiner als der index des aktuellen Feldes im verbleibenden Suchbereich geben. Denn die Zahlen vor dem Suchbereich sind ja berits der größe nach sortiert. 
+
+Aufgabe 47)
+
+Der Insertion Sort Algorytmus geht alle Element des Array symetrisch durch. Dann Ordnet er jedes Element in die berites geordneten Elemente ein. Die Einordung erfolgt in dem er dur beritsgeordneten Elemente durchgeht bis er ein Element findet, das größer ist. Der Index des vorherigen Feldes wird genutzt um das aktelle Element an dieser Position zu speichern. Vor dem Speichern müssen allerdingds alle höheren Elemente um einen index höher verschoben werden. Anderes als der Selection Sort Algorytmus werden die Elemente so sortiert wie es ein Mensch tuen würde. Anstatt die Elemente dirkekt der Reihe nach zu finden, wir der neue Teil für Jedes Element überarbeitet. 
+

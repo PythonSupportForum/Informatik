@@ -47,4 +47,20 @@ public class Kugelverwalter
         }
         return -1;
     }
+    
+    public void sortiere(){
+        for(int i = 0; i < this.getKugeln().length; i++){
+            double kleinstes = 0;
+            int kleinstesIndex = 0;
+            for(int ii = i; ii < this.getKugeln().length; ii++){
+                if(ii == i || this.getKugeln()[ii].getRadius() < kleinstes){
+                    kleinstes = this.getKugeln()[ii].getRadius();
+                    kleinstesIndex = ii;
+                }
+            }
+            Kugel zwischenspeicher = this.getKugeln()[i];
+            this.getKugeln()[i] = this.getKugeln()[kleinstesIndex];
+            this.getKugeln()[kleinstesIndex] = zwischenspeicher;
+        }
+    }
 }
